@@ -1,14 +1,14 @@
 //call back function without parameter
 
-// function Student1(){
-//     console.log("hi hello from student1")
-// }
-// //2nd function
-// function pricipal(callback){
-//     callback();
-// }
-// //calling
-// pricipal(Student1);
+ function Student1(){
+     console.log("hi hello from student1")
+ }
+ //2nd function
+ function pricipal(callback){
+     callback();
+ }
+ //calling
+ pricipal(Student1);
 
 
 //----------------------------
@@ -48,6 +48,9 @@ function Student3(callback) {
     callback(name);
 }
 
+
+//-------------------------------
+
 //lamda function
 Student4((stuName1)=>{
    console.log(`My name is ${stuName1}`); 
@@ -61,8 +64,11 @@ function Student4(callback) {
     callback(name);
 }
 
+//------------------------
 
-//Output
+
+//Output :
+//hi hello from student1
 //hii hello Pallavi
 //excuted after the callback
 //This is Anonmous Function Hari Krishna
