@@ -15,6 +15,7 @@
 
 //Now function with parameter
 
+
 function Student2(Name){
     console.log("hii hello",Name);
 
