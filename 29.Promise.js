@@ -15,7 +15,6 @@
 //     }
 // });
 
-
 //promise chaning ex 2 :
 
 let promise = new Promise((resolve, reject) => {
@@ -40,3 +39,4 @@ promise
     //10
     //20
     //60
+
