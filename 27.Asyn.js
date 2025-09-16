@@ -49,7 +49,7 @@ async function completeOrder() {
     console.log(" Order received: hot cappuccino");
     console.log(" Sipping my hot cappuccino — it's absolutely perfect!");
 }
-
+    
 // Start the async process
 completeOrder();
 
@@ -65,3 +65,7 @@ completeOrder();
 // Sipping my hot cappuccino — it's absolutely perfect!
 // The fun 2 is done
 //The fun 3 is done
+
+
+
+
